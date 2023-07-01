@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif, "Times New Roman", Helvetica;
+    margin: 0;
+    display: flexbox;
+    flex-direction: column;
+}
+
+/* top portion of page */
+
+.top-container {
+    background-color: #1F2937;
+    padding: 12px 160px 120px 160px;
+}
+
+.header,
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3,
+.header-links {
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.header {
+    color: #F9FAF8;
+    font-size: 24px;
+    gap: 24px;
+    
+}
+
+.header-links {
+    list-style-type: none;
+    gap: 16px;
+    padding: 0;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7ebe7;
+}
+
+.top-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: 24px;
+}
+
+.top-info h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.top-info p {
+    font-size: 18px;
+    color: #e5e7ebe7;
+}
+
+.top-info button {
+    padding: 4px 20px;
+    border-radius: 6px;
+    color: #F9FAF8;
+    font-weight: 550;
+    background-color: #3882F6;
+    border-color: transparent;
+}
+
+.signup-info {
+    flex: 1;
+}
+
+.cat {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+/* middle portion of page */
+
+.middle-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.middle-content {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.sakura-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.sakura-info img,
+.sakura-info p {
+    width: 200px;
+}
+
+.sakura-info img {
+    align-self: center;
+    border: 5px solid #FFB7C5;
+    border-radius: 6px;
+    height: 200px;
+}
+
+.sakura-info p {
+    text-align: center;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+/* bottom portion of page */
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 220px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 8px 0;
+    align-self: flex-end;
+    color: black;
+}
+
+
