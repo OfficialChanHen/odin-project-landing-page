@@ -65,7 +65,7 @@ a {
     color: #e5e7ebe7;
 }
 
-.top-info button {
+.signup-buttons {
     padding: 4px 20px;
     border-radius: 6px;
     color: #F9FAF8;
@@ -145,5 +145,37 @@ a {
     align-self: flex-end;
     color: black;
 }
+
+/* bottom signup */
+
+.bottom-signup {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    margin: 120px 160px;
+    padding: 36px 100px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.bottom-signup p {
+    color: #F9FAF8;
+}
+
+.call {
+    font-weight: bolder;
+    margin: 0;
+}
+
+.call-subtext {
+    font-weight: 300;
+    font-size: 13px;
+    margin: 0;
+}
+
+.bottom-signup .signup-buttons {
+    border-color: #F9FAF8;
+    flex-shrink: 0;
+} 
 
 
